@@ -1,0 +1,125 @@
+header {
+	color: white;
+	background-color: #FFEE58;
+	height: 600px;
+
+}
+
+nav ul {
+
+	padding-top: 20px;
+	list-style-type: none;
+	font-size: 14px;
+	float: right;
+	line-height: 14px;
+	white-space: nowrap;
+	font-weight: 3px;
+}
+
+nav li {
+	position: relative;
+	float: right;
+	padding: 0;
+} 
+
+nav li:hover a {
+	background: #F4D03F; 
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: white;
+	text-shadow: 2px 2px 4px #000; 
+	font-weight: 3px;
+	font-size: 14px;
+}
+
+.boton {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: #FFCA28;
+	margin: 10px;
+	padding: 0px 10px;
+}
+
+.link {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: white;
+	text-shadow: 2px 2px 4px #000; 
+}
+
+a:hover .link {
+	background: #F4D03F; 
+}
+
+h1, h4 {
+	color: white;
+	text-align: center;
+	margin-top: 250px;
+}
+
+h4 {
+	margin-top: 10px;
+}
+
+/* EJEMPLOS */
+
+section {
+	background-color: #BFBFBF;
+}
+
+.cwhite {
+	margin: 60px;
+	padding: 50px;
+	background-color: white;
+	width: 400px;
+	height: 575px;
+	z-index: -1;
+}
+
+.cgray {
+	width: 300px;
+	height: 300px;
+	background-color: #B6B6B6;
+	z-index: 2;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 28px;
+	padding: 135px 90px;
+}
+
+h2 {
+	color: gray;
+	text-align: left;
+}
+
+.boton2 {
+	margin-left: 90px;
+}
+
+footer {
+	padding: 15px 0px;
+	margin: 0;
+	background-color: #2E2E2E;
+	color: white;
+	height: auto;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+	font-size: 16px;
+}
+
+.lineader {
+	border-right: 2px solid white;
+	padding-right: 5px;
+}
+
+.pad{
+	padding-left: 5px;
+}
+
+.white {
+	color: white;
+}
